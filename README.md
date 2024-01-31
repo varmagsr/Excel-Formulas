@@ -1,5 +1,8 @@
 # Excel-Formulas
 Some advanced Excel formulas for referance:-
+
+
+
 =IF(ISNUMBER(MATCH(C6,$A$3:$A$11246,0)),"YES","NO")     -----> This will search IF the value in c6 exist in any cell starting from A3 to A1126.
 
 =IF(Sheet1!E3="YES",Sheet1!C3,"0")      ---------> This will copy value from Sheet1 C3 IF Sheet1 E3 value is = YES.
