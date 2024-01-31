@@ -23,4 +23,8 @@ this is trypical If, Else, AndElse condution formula.
 
 =COUNTIF(Sheet3!$J$2:$J$87289,"T1")  ---->  This normal count operation for the given column, It will enter count of no of occurances of T1 in column J.
 
-=UNIQUE(Sheet3!$C$2:Sheet3!$C$87289)   -----> This will list the all the unique values exist in the Column C
+=UNIQUE(Sheet3!$C$2:Sheet3!$C$87289)   -----> This will list the all the unique values exist in the Column C.
+
+=COUNTIFS(Sheet3!$C$2:Sheet3!$C$87289,A4,Sheet3!$J$2:Sheet3!$J$87289,"T1")  ----> This will enter the count of occrance where A4 value matchs with Sheet3 column3 and value T1 matchs from sheet3 column J.   In both matching conditions the values must be in same row.
+
+
